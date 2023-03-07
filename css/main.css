@@ -1,0 +1,54 @@
+    .container {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 0 15px;
+    }
+    
+    .menu {
+        background-color: blue;
+    }
+    
+    body {
+        background-color: rgba(142, 222, 249, 0.256);
+    }
+    
+    .flex {
+        border-radius: 8px;
+        background-color: rgba(100, 148, 237, 0.333);
+        height: 200px;
+    }
+    
+    .hidden {
+        background-color: rgb(0, 0, 255);
+        border-radius: 8px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        z-index: -1;
+        scale: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease, z-index 0.2s ease, scale 0.4s ease;
+    }
+    
+    .h4open {
+        color: rgb(240, 248, 255);
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .p {
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .hidden {
+        background-color: rgb(191, 0, 255);
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .flex-svg {
+        scale: 1;
+        opacity: 1;
+        z-index: 2;
+    }
